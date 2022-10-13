@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-family: aw-conqueror-didot, serif;
+  background: #fff;
+  color: #34374d;
 }
 
 .App-logo {
@@ -28,11 +33,58 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes scroll-arrow {
+  0% {
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.arrow-animated {
+  animation: 3s scroll-arrow infinite;
+}
+
+/* hover effect */
+.hover-6 {
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    height: 3px;
+    background-color: @blue;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+
+    transition: transform 0.3s;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    height: 3px;
+    background-color: @blue;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+
+    transition: transform 0.3s;
+  }
+
+  &:hover {
+    &:before {
+      transform: scaleX(1);
+    }
+
+    &:after {
+      transform: scaleX(1);
+    }
   }
 }
