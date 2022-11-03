@@ -83,7 +83,7 @@ const Rsvp = () => {
 
       <Sh1>17.12.22</Sh1>
       <Button
-        href='https://wa.me/+5491133112389?text=Me%20encantaría%20confirmar%20mi%20asistencia!'
+        href='https://web.whatsapp.com/send?phone=+5491133112389&text=Me%20encantaría%20confirmar%20mi%20asistencia!&app_absent=0'
         target='_blank'
       >
         Confirmar asistencia
