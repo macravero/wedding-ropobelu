@@ -111,7 +111,7 @@ const Paragraph = styled.p`
   text-align: justify;
   padding-right: 30px;
 `;
-const Button = styled.button`
+const Button = styled.a`
   border: 1px solid #292d46;
   background: none;
   color: #292d46;
@@ -119,6 +119,7 @@ const Button = styled.button`
   padding: 10px;
   font-family: 'Proxima Nova';
   cursor: pointer;
+  text-decoration: none;
   &:hover {
     color: white;
     background: #292d46;
@@ -159,8 +160,16 @@ const Party = () => {
               </tr>
             </Table>
             <div style={{ display: 'flex' }}>
-              <Button>Agendar</Button>
-              <Button style={{ marginLeft: '25px' }}>Ver en mapa</Button>
+              <Button href='/events/fiesta.ics' target='_blank'>
+                Agendar
+              </Button>
+              <Button
+                href='https://g.page/circuloolivoseventos?share'
+                target='_blank'
+                style={{ marginLeft: '25px' }}
+              >
+                Ver en mapa
+              </Button>
             </div>
           </div>
         </Wrapper>

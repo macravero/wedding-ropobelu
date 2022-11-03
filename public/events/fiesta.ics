@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Argentina/Buenos_Aires
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Argentina/Buenos_Aires
+X-LIC-LOCATION:America/Argentina/Buenos_Aires
+BEGIN:STANDARD
+TZNAME:-03
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20221103T040254Z
+UID:1667448162536-82891@ical.marudot.com
+DTSTART;TZID=America/Argentina/Buenos_Aires:20221217T213000
+DTEND;TZID=America/Argentina/Buenos_Aires:20221218T120000
+SUMMARY:Fiesta de casamiento Ropo y Belu
+URL:https://g.page/circuloolivoseventos?share
+DESCRIPTION:¡La noche recién empieza! Luego de la ceremoria\, los esperamos en el salón de eventos Círculo Olivos Eventos para celebrar\, brindar y bailar como se debe!
+LOCATION:Círculo Olivos Eventos - San Lorenzo 60\, La Lucila
+END:VEVENT
+END:VCALENDAR

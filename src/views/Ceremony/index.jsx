@@ -172,7 +172,13 @@ const Ceremony = () => {
               <Button href='/events/ceremonia.ics' target='_blank'>
                 Agendar
               </Button>
-              <Button style={{ marginLeft: '25px' }}>Ver en mapa</Button>
+              <Button
+                href='https://goo.gl/maps/yzxcLpyQtuGP94gq6'
+                target='_blank'
+                style={{ marginLeft: '25px' }}
+              >
+                Ver en mapa
+              </Button>
             </div>
           </div>
         </Wrapper>
