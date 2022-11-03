@@ -6,7 +6,7 @@ import PollenTopLeft from '../../assets/partyPollenTopLeft.png';
 import PollenTopRight from '../../assets/partyPollenTopRight.png';
 import PollenBottom from '../../assets/partyPollenBottom.png';
 import ImageOne from '../../assets/picture2.png';
-import ImageTwo from '../../assets/placeholder4.png';
+import PartyImg from '../../assets/party.png';
 
 const PetalImg = styled.img`
   position: absolute;
@@ -189,7 +189,7 @@ const Party = () => {
               y bailar como se debe!
             </Paragraph>
           </div>
-          <LeftImg src={ImageTwo} />
+          <LeftImg src={PartyImg} />
         </Wrapper>
       </Wrapper>
     </Container>

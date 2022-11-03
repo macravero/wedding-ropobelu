@@ -5,7 +5,7 @@ import CeremonyPictureFlower from '../../assets/ceremony-picture-flower.png';
 import CeremonyPollenBotRight from '../../assets/ceremonyPollenBotRight.png';
 import CeremonyPollenLeft from '../../assets/ceremonyPollenLeft.png';
 import ImageOne from '../../assets/picture1.png';
-import ImageTwo from '../../assets/placeholder2.png';
+import CeremonyImg from '../../assets/ceremony.png';
 
 const RightSideImg = styled.img`
   position: absolute;
@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 const LeftImg = styled.img`
   width: 540px;
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   top: 35%;
   left: 17%;
 `;
@@ -144,7 +144,7 @@ const Ceremony = () => {
         </Wrapper>
         <Wrapper>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <RightImg src={ImageTwo} />
+            <RightImg src={CeremonyImg} />
             <Table>
               <tr>
                 <th>DÍA</th>
