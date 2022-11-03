@@ -102,7 +102,7 @@ const Table = styled.table`
     font-family: 'AWConqueror Std Didot';
   }
 `;
-const Button = styled.button`
+const Button = styled.a`
   border: 1px solid #292d46;
   background: none;
   color: #292d46;
@@ -110,6 +110,8 @@ const Button = styled.button`
   padding: 10px;
   font-family: 'Proxima Nova';
   cursor: pointer;
+  text-decoration: none;
+  z-index: 2;
   &:hover {
     color: white;
     background: #292d46;
@@ -132,9 +134,9 @@ const Ceremony = () => {
           >
             <Header>Ceremonia</Header>
             <Paragraph style={{ padding: '0 8%' }}>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes.
+              Nos casamos y queremos compartir con ustedes este día tan
+              especial. Nos encontramos el 17 de diciembre a las 20 hs para dar
+              el “¡sí, quiero!” en la Parroquia San Isidro Labrador.
             </Paragraph>
           </div>
           <LeftImg src={ImageOne} />
@@ -167,7 +169,9 @@ const Ceremony = () => {
               </tr>
             </Table>
             <div style={{ display: 'flex', marginLeft: '100px' }}>
-              <Button>Agendar</Button>
+              <Button href='/events/ceremonia.ics' target='_blank'>
+                Agendar
+              </Button>
               <Button style={{ marginLeft: '25px' }}>Ver en mapa</Button>
             </div>
           </div>

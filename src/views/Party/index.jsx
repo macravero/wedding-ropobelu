@@ -174,9 +174,9 @@ const Party = () => {
           >
             <Header>La fiesta</Header>
             <Paragraph>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes.
+              ¡La noche recién empieza! Luego de la ceremoria, los esperamos en
+              el salón de eventos Círculo Olivos Eventos para celebrar, brindar
+              y bailar como se debe!
             </Paragraph>
           </div>
           <LeftImg src={ImageTwo} />
