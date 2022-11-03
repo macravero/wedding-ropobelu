@@ -63,6 +63,7 @@ const Button = styled.a`
   align-items: center;
   cursor: pointer;
   z-index: 1;
+  text-decoration: none;
   &:hover {
     background: #34374d;
     color: white;
