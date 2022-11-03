@@ -120,6 +120,7 @@ const Button = styled.a`
   font-family: 'Proxima Nova';
   cursor: pointer;
   text-decoration: none;
+  z-index: 2;
   &:hover {
     color: white;
     background: #292d46;
