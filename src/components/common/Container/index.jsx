@@ -10,6 +10,7 @@ const StyledContainer = styled.div`
   box-sizing: border-box;
   margin: 0;
   position: relative;
+  background: transparent;
 `;
 
 const Container = ({ id, children }) => {

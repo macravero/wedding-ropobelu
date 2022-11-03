@@ -5,23 +5,25 @@ import PageLogo from '../../assets/PageLogo.png';
 const StyledNav = styled.nav`
   transform-origin: left top;
   transform: rotate(-90deg) translateX(-100%);
-  bottom: calc(100vh - 54%);
+  bottom: calc(100vh - 48%);
   width: 25%;
-  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
   position: fixed;
   z-index: 10;
+  gap: 20px;
+  font-weight: 600;
+  padding: 24px 36px;
 `;
 const StyledLogo = styled.img`
   cursor: pointer;
 `;
 const StyledButton = styled.button`
   border: none;
-  background: none;
-  font-family: 'Poppins', serif;
-  font-size: 14px;
+  background: white;
+  font-family: 'Proxima Nova';
+  font-size: 16px;
   position: relative;
   &:before {
     content: '';
@@ -64,7 +66,7 @@ const buttons = [
   { text: 'CEREMONIA', link: '#ceremony' },
   { text: 'FIESTA', link: '#party' },
   { text: 'REGALOS', link: '#gifts' },
-  { text: 'RSVP', link: 'mailto:cravero.martin@gmail.com' },
+  { text: 'RSVP', link: '#rsvp' },
 ];
 const Navbar = () => {
   return (
