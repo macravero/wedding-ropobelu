@@ -47,7 +47,7 @@ const Sh1 = styled.h2`
   margin: 32px 0;
   font-family: 'AWConqueror Std Didot';
 `;
-const Button = styled.button`
+const Button = styled.a`
   padding: 10px 12px;
   width: 169px;
   height: 36px;
