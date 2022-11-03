@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Argentina/Buenos_Aires
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Argentina/Buenos_Aires
+X-LIC-LOCATION:America/Argentina/Buenos_Aires
+BEGIN:STANDARD
+TZNAME:-03
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20221103T035253Z
+UID:1667447539882-48274@ical.marudot.com
+DTSTART;TZID=America/Argentina/Buenos_Aires:20221217T200000
+DTEND;TZID=America/Argentina/Buenos_Aires:20221217T213000
+SUMMARY:Ceremonia de casamiento Ropo y Belu
+URL:https://goo.gl/maps/yzxcLpyQtuGP94gq6
+DESCRIPTION:Nos casamos y queremos compartir con ustedes este día tan especial. Nos encontramos el 17 de diciembre a las 20 hs para dar el “¡sí\, quiero!” en la Parroquia San Isidro Labrador.
+LOCATION:Parroquia San Isidro Labrador - Av. San Isidro Labrador 4630
+END:VEVENT
+END:VCALENDAR
