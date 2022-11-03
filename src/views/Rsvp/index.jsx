@@ -62,6 +62,7 @@ const Button = styled.button`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 1;
   &:hover {
     background: #34374d;
     color: white;
@@ -81,7 +82,9 @@ const Rsvp = () => {
       </Subtitle>
 
       <Sh1>17.12.22</Sh1>
-      <Button>Confirmar asistencia</Button>
+      <Button onClick='https://wa.me/+5491133112389?text=Me%20encantaría%20confirmar%20mi%20asistencia!'>
+        Confirmar asistencia
+      </Button>
     </Container>
   );
 };

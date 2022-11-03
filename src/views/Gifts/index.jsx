@@ -33,6 +33,7 @@ const Title = styled.h1`
   margin: 0;
   margin-top: 12%;
   background: white;
+  z-index: 2;
 `;
 const Subtitle = styled.h2`
   font-style: normal;
