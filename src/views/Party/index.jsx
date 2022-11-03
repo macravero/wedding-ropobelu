@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import Container from '../../components/common/Container';
-import RightSideFlowerBottom from '../../assets/RightSideFlowerBottom.png';
 import PetalBottom from '../../assets/partyPetal.png';
 import PartyFlowers from '../../assets/partyFlowers.png';
 import PollenTopLeft from '../../assets/partyPollenTopLeft.png';
@@ -9,14 +8,6 @@ import PollenBottom from '../../assets/partyPollenBottom.png';
 import ImageOne from '../../assets/picture2.png';
 import ImageTwo from '../../assets/placeholder4.png';
 
-const RightSideImg = styled.img`
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: calc(100vh - 42%);
-  width: auto;
-  z-index: 1;
-`;
 const PetalImg = styled.img`
   position: absolute;
   bottom: 0;
