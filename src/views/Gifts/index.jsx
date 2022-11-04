@@ -53,6 +53,7 @@ const Text = styled.p`
   line-height: 24px;
   text-align: center;
   color: #34374d;
+  margin-bottom: 40px;
 `;
 const CardContainer = styled.div`
   display: flex;

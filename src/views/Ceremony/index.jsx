@@ -165,7 +165,7 @@ const Ceremony = () => {
 
               <tr>
                 <th>DIRECCIÓN</th>
-                <td>Av. San Isidro Labrador 4630</td>
+                <td>Av. San Isidro Labrador 4630, CABA</td>
               </tr>
             </Table>
             <div style={{ display: 'flex', marginLeft: '100px' }}>

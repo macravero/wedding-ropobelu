@@ -77,14 +77,14 @@ const Rsvp = () => {
       <BottomFlower src={BotFlower} />
       <Title>RSVP</Title>
       <Subtitle>
-        Esperamos tu confirmación antes del 1 de diciembre.
+        Esperamos tu confirmación antes del 11 de Noviembre.
         <br /> Contanos si venís acompañado o si tenés alguna preferencia
         especial de menú.
       </Subtitle>
 
       <Sh1>17.12.22</Sh1>
       <Button
-        href='https://web.whatsapp.com/send?phone=+5491133112389&text=Me%20encantaría%20confirmar%20mi%20asistencia!&app_absent=0'
+        href='https://web.whatsapp.com/send?phone=+5491133112389&text=¡Me%20encantaría%20confirmar%20mi%20asistencia!&app_absent=0'
         target='_blank'
       >
         Confirmar asistencia
