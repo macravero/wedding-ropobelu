@@ -186,7 +186,8 @@ const Party = () => {
             <Paragraph>
               ¡La noche recién empieza! Luego de la ceremoria, los esperamos en
               el salón de eventos Círculo Olivos Eventos para celebrar, brindar
-              y bailar como se debe! </br>Código de vestimenta: formal.
+              y bailar como se debe! <br />
+              Código de vestimenta: formal.
             </Paragraph>
           </div>
           <LeftImg src={PartyImg} />

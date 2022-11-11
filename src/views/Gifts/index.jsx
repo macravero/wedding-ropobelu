@@ -5,6 +5,7 @@ import BotFlower from '../../assets/giftsPetal.png';
 import Plane from '../../assets/plane.png';
 import Map from '../../assets/map.png';
 import Drink from '../../assets/drink.png';
+import { useState } from 'react';
 
 const Flower = styled.img`
   position: absolute;
@@ -57,15 +58,14 @@ const Text = styled.p`
 `;
 const CardContainer = styled.div`
   display: flex;
-  gap: 56px;
+  min-height: 350px;
 `;
 const Card = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background: #ffffff;
-  box-shadow: 0px 2px 8px rgba(52, 55, 77, 0.25);
   border-radius: 4px;
   width: 280px;
   height: 350px;
@@ -86,8 +86,15 @@ const Button = styled.button`
     background: #f55734;
   }
 `;
+const InfoContainer = styled.div`
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(52 55 77 / 25%) 0px 2px 8px;
+  min-height: 350px;
+  min-width: 840px;
+`;
 const IconImg = styled.img``;
 const Gifts = () => {
+  const [displayInfo, setDisplayInfo] = useState(false);
   return (
     <Container id='gifts'>
       <Flower src={TopFlower} />
@@ -102,21 +109,41 @@ const Gifts = () => {
         algunas ideas:
       </Text>
       <CardContainer>
-        <Card>
-          <IconImg src={Plane} />
-          <Subtitle>Viajar</Subtitle>
-          <Button>Regalar</Button>
-        </Card>
-        <Card>
-          <IconImg src={Map} />
-          <Subtitle>Tours</Subtitle>
-          <Button>Regalar</Button>
-        </Card>
-        <Card>
-          <IconImg src={Drink} />
-          <Subtitle>Salir a divertirnos</Subtitle>
-          <Button>Regalar</Button>
-        </Card>
+        {displayInfo ? (
+          <InfoContainer>
+            <Text style={{ marginBottom: '15px' }}>
+              Banco Galicia
+              <br />
+              <br />
+              CBU: 0070027630004038127666
+              <br />
+              <br />
+              ALIAS: TIZA.PINO.MANTO
+              <br />
+              <br />
+              Titular: Goenaga María Belén
+              <br />
+              <br />
+            </Text>
+            <Title style={{ margin: '0' }}>¡Muchas Gracias!</Title>
+          </InfoContainer>
+        ) : (
+          <>
+            <Card>
+              <IconImg src={Plane} />
+              <Subtitle>Viajar</Subtitle>
+            </Card>
+            <Card>
+              <IconImg src={Map} />
+              <Subtitle>Tours</Subtitle>
+              <Button onClick={() => setDisplayInfo(true)}>Regalar</Button>
+            </Card>
+            <Card>
+              <IconImg src={Drink} />
+              <Subtitle>Salir a divertirnos</Subtitle>
+            </Card>
+          </>
+        )}
       </CardContainer>
     </Container>
   );
